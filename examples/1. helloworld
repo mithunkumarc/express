@@ -1,0 +1,17 @@
+1. create file index.js
+
+2. import express module and create server
+
+var express = require('express');
+var app = express();
+app.get('/', function(req,res){
+	res.send("hello world");
+});
+app.listen(3000);
+
+
+3.compile index.js : node index.js
+
+4. open browser : localhost:3000
+
+output : hello world
